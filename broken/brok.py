@@ -7,7 +7,7 @@ import collections
 
 
 def is_iterable(item):
-    return isinstance(item, collections.Iterable) and not isinstance(item, str)
+    return isinstance(item, collections.Iterable) and not isinstance(item,str)
 
 def is_not_iterable(item):
     return not isinstance(item, collections.Iterable)
